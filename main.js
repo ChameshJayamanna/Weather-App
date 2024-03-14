@@ -1,9 +1,14 @@
+//To ensure that the JavaScript code runs after the HTML document is loaded, you can either place your <script> tag at the end of the HTML body
+//or use an event listener for the DOMContentLoaded event.
+
+document.addEventListener("DOMContentLoaded", function(){
 const apiKey="e682132f516436210e12f8fbfd717ede";
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon")
+
 
 async function checkWeather(city){
         const response=await fetch(apiUrl +  city + `&appid=${apiKey}`);
@@ -41,7 +46,8 @@ async function checkWeather(city){
 }
 
 
-
 searchBtn.addEventListener("click",()=>{
     checkWeather(searchBox.value);
 })
+
+});
