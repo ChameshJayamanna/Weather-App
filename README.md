@@ -7,6 +7,6 @@ OpenWeather's Current Weather Data API was used to obtain real-time weather data
 
 
 ## IMAGES
-![Images](https://github.com/ChameshJayamanna/Automatic-Plant-Watering-System/blob/34909352e757d51338e89d244018cea29104fb66/Images/robot.jpg)
+![Images](https://github.com/ChameshJayamanna/Weather-App/blob/7d68d33bb29dcd0328f0229c5fde753f1c64c76c/images/ss.jpg)
 
 
