@@ -7,6 +7,7 @@ OpenWeather's Current Weather Data API was used to obtain real-time weather data
 
 
 ## IMAGES
-![Images](https://github.com/ChameshJayamanna/Weather-App/blob/7d68d33bb29dcd0328f0229c5fde753f1c64c76c/images/ss.jpg)
+<img src="https://github.com/ChameshJayamanna/Weather-App/blob/7d68d33bb29dcd0328f0229c5fde753f1c64c76c/images/ss.jpg" alt="Image" width="400" height="500">
+
 
 
